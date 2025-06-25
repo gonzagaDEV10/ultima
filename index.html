@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="shortcut icon" href="img/faviiconmundial.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Mundial de Clubes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <nav class="navbar navbar-expand-sm custom-navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="destaques.html">Jogadores Destaques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mundial">O que é?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Forms.html">Formulário</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Times
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="alhilal.html">Al Hilal</a>
+              <a class="dropdown-item" href="RB Leipzig.html">RB Leipzig</a>
+              <a class="dropdown-item" href="pachuca.html">Pachuca</a>
+              <a class="dropdown-item" href="real.html">Real Madrid</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <h2>Mundial de <span>Clubes</span></h2>
+
+    <div class="logo">
+      <img src="img/img3-mundial.webp" alt="logo mundial">
+    </div>
+
+  </header>
+  <section id="grupoH">
+    <div id="demo" class="carousel slide carousel-custom mx-auto mb-5" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/alhilallogo.jfif" alt="Al Hilal" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Real.logo.png" alt="Al Hilal Logo" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="#" alt="Pachuca Logo" class="d-block w-100">
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <main id="mundial" class="main">
+    <section class="section">
+      <div class="fundo2">
+        <img src="img/1 logo.jfif" class="logoMundial" alt="Logo do Mundial">
+
+        <div class="container">
+          <h2>Super <span>Mundial</span></h2>
+          <div class="content">
+            <p>
+              O Mundial de Clubes é uma competição de futebol organizada pela FIFA e disputada entre clubes campeões
+              de todas as seis confederações continentais: CONMEBOL, CONCACAF, UEFA, CAF, AFC e OFC, além do
+              representante
+              do país-sede. A competição é realizada anualmente desde 2000. Os vencedores de dois campeonatos se
+              enfrentam:
+              o campeão da Copa Libertadores que representa o continente sul-americano e o campeão da Champions League
+              da
+              Europa. Sete equipes, cada uma campeã em seu continente, disputam o Mundial de Clubes ao fim da temporada.
+            </p>
+
+
+
+          </div>
+          <div class="text-center mt-5">
+            <button class="button" onclick="abrirPDF()">
+              <div class="blob1"></div>
+              <div class="inner">Saiba Mais</div>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  
+
+  <script>
+
+    function abrirPDF() {
+      window.open('manual de identidade visual da logo do mundial de clubes.pdf')
+    }
+
+  </script>
+
+</body>
+
+</html>
